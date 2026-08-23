@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import './config/database.js';
-import { apiBaseUrl } from './config/api.js';
+import { apiBaseUrl } from './server.js';
 import { userRouter } from './routes/users.js';
 import { teamRouter } from './routes/teams.js';
 import { activityRouter } from './routes/activities.js';
